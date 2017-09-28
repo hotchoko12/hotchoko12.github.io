@@ -125,4 +125,25 @@ body {
   .slogan {
     width: 80%;
   }
+  .header {
+    /* TODO: 삭제예정 */
+    background: yellow;
+    position: relative;
+  }
+  .logo {
+    background: lime;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .member {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .member a {
+    display: block;
+    padding: 1rem 0.5rem;
+    margin-left: o.5rem;
+  }
 }
