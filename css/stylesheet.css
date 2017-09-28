@@ -36,7 +36,6 @@ body {
 /* 레이아웃 */
 
 .wrapper {
-  background: skyblue;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -127,11 +126,10 @@ body {
   }
   .header {
     /* TODO: 삭제예정 */
-    background: yellow;
     position: relative;
+    padding-bottom: 1rem;
   }
   .logo {
-    background: lime;
     position: absolute;
     left: 50px;
     top: 50%;
@@ -145,5 +143,24 @@ body {
     display: block;
     padding: 1rem 0.5rem;
     margin-left: o.5rem;
+  }
+  .search-wrap {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .search input {
+    width: 400px;
+    height: 35px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 0 0 0 1rem;
+    margin-right: 1rem;
+  }
+  .btn-search {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background: #988574;
+    color: #fff;
+    padding: 0 1rem;
   }
 }
